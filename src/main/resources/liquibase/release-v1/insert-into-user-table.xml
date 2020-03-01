@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+  <changeSet author="ajits01" id="20200301-002">
+    <insert tableName="APP_USER_TBL">
+      <column name="username" value="johndoe"/>
+      <column name="password" value="johnpass"/>
+      <column name="salt" value="xakSD!T3asdg#aNl"/>
+      <column name="phone" value="1234567890"/>
+      <column name="email" value="johndoe@domain"/>
+    </insert>
+    <insert tableName="APP_USER_TBL">
+      <column name="username" value="janedoe"/>
+      <column name="password" value="janepass"/>
+      <!-- Leave out value attribute to insert value as NULL -->
+      <column name="salt"/>
+      <column name="phone" value="1123456789"/>
+      <column name="email" value="janedoe@domain"/>
+    </insert>
+  </changeSet>
+</databaseChangeLog>

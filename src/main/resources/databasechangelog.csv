@@ -1,0 +1,3 @@
+"ID","AUTHOR","FILENAME","DATEEXECUTED","ORDEREXECUTED","EXECTYPE","MD5SUM","DESCRIPTION","COMMENTS","TAG","LIQUIBASE","CONTEXTS","LABELS","DEPLOYMENT_ID"
+"20200301-001","ajits01","liquibase/release-v1/create-user-table.xml","2020-03-01T17:13:43.765","1","EXECUTED","8:8b49d83781e876074cff4f2c5b597346","createTable tableName=APP_USER_TBL","","","3.8.7","()","","3063023718"
+"20200301-002","ajits01","liquibase/release-v1/insert-into-user-table.xml","2020-03-01T17:13:43.765","2","EXECUTED","8:580d3d430d4ed3321f55f370ffc8f732","insert tableName=APP_USER_TBL; insert tableName=APP_USER_TBL",,"","3.8.7","()","","3063023718"
